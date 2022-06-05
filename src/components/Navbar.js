@@ -1,8 +1,8 @@
 export default function Navbar() {
   return (
-    <div>
+    <div className="flex justify-between px-2 py-2 bg-slate-500 text-lg">
       {/* the left sided items */}
-      <div>
+      <div className="flex gap-7">
         <p>Home</p>
         <p>About</p>
         <p>Contact</p>
